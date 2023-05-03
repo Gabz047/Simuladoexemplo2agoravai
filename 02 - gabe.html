@@ -1,0 +1,8 @@
+<script>
+    const precorefri = Number(prompt("Informe o preço da garrafa de refrigerante").replace(",","."))
+    const duasgarrafas = (precorefri - (precorefri*10/100))*2
+    const tresgarrafas = (precorefri - (precorefri*15/100))*3
+    document.write(`Uma garrafa fica ${precorefri.toFixed(2).replace(".",",")} R$ <br>`)
+    document.write(`Duas garrafas ficam ${duasgarrafas.toFixed(2).replace(".",",")} R$ <br>`)
+    document.write(`Três garrafas ficam ${tresgarrafas.toFixed(2).replace(".",",")} R$ <br>`)
+</script>

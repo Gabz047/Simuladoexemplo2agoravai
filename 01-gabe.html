@@ -1,0 +1,6 @@
+<script>
+    const precobebida = Number(prompt("Informe o preço do litro da bebida").replace(",","."));
+    const quantibebida = Number(prompt("Quantos litros de bebida foram consumidos"));
+    const valorfinal = precobebida*quantibebida
+    document.write(`O custo total da bebida foi de ${valorfinal.toFixed(2).replace(".",",")}`)
+</script>

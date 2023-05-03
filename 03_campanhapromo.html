@@ -1,0 +1,9 @@
+<meta charset="UTF-8">
+<script>
+    const precorefri = Number(prompt("Informe o preço da garrafa de refrigerante"));
+    const desconto2refri = (precorefri - (precorefri*10/100))*2;
+    const desconto3refri = (precorefri - (precorefri*15/100))*3;
+    document.write(`O preço de uma garrafa é de ${precorefri.toFixed(2).replace(".",",")} R$ <br>`);
+    document.write(`O preço de duas garrafas na promoção é de ${desconto2refri.toFixed(2).replace(".",",")} R$ <br>`);
+    document.write(`O preço de três garrafas na promoção é de ${desconto3refri.toFixed(2).replace(".",",")} R$ <br>`);
+</script>

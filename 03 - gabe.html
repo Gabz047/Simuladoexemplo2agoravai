@@ -1,0 +1,7 @@
+<script>
+    const tamanhoparede = Number(prompt("Informe o tamanho da parede a ser construída em Metros quadrados"));
+    const tijolo = 19*19/10000;
+    const subtracao = tamanhoparede - (tamanhoparede*3/100);
+    const valorfinal1 = Math.ceil(subtracao/tijolo);
+    document.write(`Serão necessários ${valorfinal1} Tijolos`)
+</script>
